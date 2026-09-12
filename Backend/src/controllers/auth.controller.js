@@ -7,7 +7,7 @@ import jwt from "jsonwebtoken"
 
 const registerUser = async(req,res) =>{
     try{
-        
+    
         const{fullname,username,password,email} = req.body;
 
         if(!fullname || !username|| !password|| !email){
